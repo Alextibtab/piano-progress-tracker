@@ -35,17 +35,38 @@ Pages:
   ☐ Login
   ☐ Register
 
+Components:
+  Header:
+    ✔ Basic Header Component @done(23-02-06 23:06)
+    ☐ Modify to fit design
+    ☐ Add content
+    ☐ Finish styling
+
+  Footer:
+    ✔ Basic Footer Component @done(23-02-06 23:06)
+    ☐ Modify to fit design
+    ☐ Add content
+    ☐ Finish styling
+
 Progress:
   ☐ Project Started @started(23-02-06 00:20)
 
 Finished Tasks:
-
-Todo: @today
   ✔ Basic Footer Component @started(23-02-06 22:07) @done(23-02-06 22:13) @lasted(6m12s)
   ✔ Basic Header Component @done(23-02-06 22:06)
   ✔ Basic website layout @started(23-02-06 00:22) @done(23-02-06 21:52) @lasted(21h30m52s)
   ✔ Add about, contact, login and register routes @started(23-02-06 21:29) @done(23-02-06 22:06) @lasted(37m37s)
 
+Todo: @today
+
 Tasks:
-  ☐ Create page mockups
+  Design:
+    ☐ Create page mockups
+    ☐ Choose colour palette
+    ☐ Have ability to switch between dark and light mode
+  
+  Database Design:
+    ☐ Choose database
+    ☐ Experiment with typography
+    ☐ Create ERD for database
 
