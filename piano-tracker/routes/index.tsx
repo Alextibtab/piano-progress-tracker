@@ -1,4 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
+import Header from "../components/Header.tsx";
+import Footer from "../components/Footer.tsx";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
@@ -7,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Fresh App</title>
       </Head>
+      <Header active="Home" />
       <div class="p-4 mx-auto max-w-screen-md">
         <img
           src="/logo.svg"
@@ -19,6 +22,7 @@ export default function Home() {
         </p>
         <Counter start={3} />
       </div>
+      <Footer />
     </>
   );
 }

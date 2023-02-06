@@ -1,12 +1,10 @@
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
 
-export default function AboutPage() {
+export default function LoginPage() {
   return (
     <>
-      <Header active="About" />
-      <h1>About</h1>
-      <p>This is the about page</p>
+      <Header active="Login" />
       <Footer />
     </>
   );
