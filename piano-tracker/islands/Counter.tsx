@@ -1,11 +1,11 @@
 import { useState } from "preact/hooks";
-import { Button } from "../components/Button.tsx";
+import Button from "../components/Button.tsx";
 
 interface CounterProps {
   start: number;
 }
 
-export default function Counter(props: CounterProps) {
+const Counter = (props: CounterProps) => {
   const [count, setCount] = useState(props.start);
   return (
     <div class="flex gap-2 w-full">
@@ -14,4 +14,6 @@ export default function Counter(props: CounterProps) {
       <Button onClick={() => setCount(count + 1)}>+1</Button>
     </div>
   );
-}
+};
+
+export default Counter;

@@ -1,13 +1,11 @@
-import Header from "../components/Header.tsx";
-import Footer from "../components/Footer.tsx";
+import Layout from "../components/Layout.tsx";
 
-export default function AboutPage() {
+const AboutPage = () => {
   return (
-    <>
-      <Header active="About" />
-      <h1>About</h1>
-      <p>This is the about page</p>
-      <Footer />
-    </>
+    <Layout active="About">
+      About Page Content
+    </Layout>
   );
-}
+};
+
+export default AboutPage;

@@ -1,11 +1,11 @@
-import Header from "../components/Header.tsx";
-import Footer from "../components/Footer.tsx";
+import Layout from "../components/Layout.tsx";
 
-export default function LoginPage() {
+const LoginPage = () => {
   return (
-    <>
-      <Header active="Login" />
-      <Footer />
-    </>
+    <Layout active="Login">
+      Login Page Content
+    </Layout>
   );
-}
+};
+
+export default LoginPage;

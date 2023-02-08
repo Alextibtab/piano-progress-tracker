@@ -1,12 +1,11 @@
-import Header from "../components/Header.tsx";
-import Footer from "../components/Footer.tsx";
+import Layout from "../components/Layout.tsx";
 
-export default function ContactPage() {
+const ContactPage = () => {
   return (
-    <>
-      <Header active="Contact" />
-      <h1>Contact Page</h1>
-      <Footer />
-    </>
+    <Layout active="Contact">
+      Contact Page Content
+    </Layout>
   );
-}
+};
+
+export default ContactPage;

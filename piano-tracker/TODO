@@ -56,14 +56,22 @@ Finished Tasks:
   ✔ Basic Header Component @done(23-02-06 22:06)
   ✔ Basic website layout @started(23-02-06 00:22) @done(23-02-06 21:52) @lasted(21h30m52s)
   ✔ Add about, contact, login and register routes @started(23-02-06 21:29) @done(23-02-06 22:06) @lasted(37m37s)
+  
+  ✔ Added Layout Component @started(23-02-08 23:12) @done(23-02-08 23:12) @lasted(28s)
+  ✔ Modified routes to use Layout Component @started(23-02-08 23:12) @done(23-02-08 23:12) @lasted(50s)
 
 Todo: @today
+  ☐ Login Form @started(23-02-08 20:06)
+  ☐ Register Form
+  ☐ light/dark mode toggle
 
 Tasks:
   Design:
     ☐ Create page mockups
     ☐ Choose colour palette
     ☐ Have ability to switch between dark and light mode
+    ☐ Create logo
+    ☐ research framer-motion
   
   Database Design:
     ☐ Choose database
