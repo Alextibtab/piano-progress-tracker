@@ -48,6 +48,12 @@ Components:
     ☐ Add content
     ☐ Finish styling
 
+  Layout:
+    ✔ Basic Layout Component @done(23-02-09 22:00)
+    ☐ Modify to fit design
+    ☐ Add content
+    ☐ Finish styling
+
 Progress:
   ☐ Project Started @started(23-02-06 00:20)
 
@@ -59,10 +65,15 @@ Finished Tasks:
   
   ✔ Added Layout Component @started(23-02-08 23:12) @done(23-02-08 23:12) @lasted(28s)
   ✔ Modified routes to use Layout Component @started(23-02-08 23:12) @done(23-02-08 23:12) @lasted(50s)
+  ✔ Updated code to use arrow functions @done(23-02-08 23:46)
+
+  ✔ Login Form @started(22-02-08 20:06) @done(23-02-09 21:56) @lasted(1d1h50m30s)
+  ✔ Register Form @done(22-02-09 21:56)
 
 Todo: @today
-  ☐ Login Form @started(23-02-08 20:06)
-  ☐ Register Form
+  ☐ Implement Framer Motion
+  ☐ Style login form
+  ☐ Style register form
   ☐ light/dark mode toggle
 
 Tasks:

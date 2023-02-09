@@ -1,4 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
+import { motion } from "framer-motion";
 
 import Layout from "../components/Layout.tsx";
 import Counter from "../islands/Counter.tsx";
@@ -21,6 +22,7 @@ const Home = () => {
             ./routes/index.tsx file, and refresh. Test
           </p>
           <Counter start={3} />
+          <motion.div />
         </div>
       </Layout>
     </>
