@@ -1,11 +1,14 @@
-import Header from "../components/Header.tsx";
-import Footer from "../components/Footer.tsx";
+import Layout from "../components/Layout.tsx";
 
-export default function RegisterPage() {
+import RegisterPageForm from "../islands/RegisterPageForm.tsx";
+
+const RegisterPage = () => {
   return (
-    <>
-      <Header active="Register" />
-      <Footer />
-    </>
+    <Layout active="Register">
+      Register Page Content
+      <RegisterPageForm />
+    </Layout>
   );
-}
+};
+
+export default RegisterPage;

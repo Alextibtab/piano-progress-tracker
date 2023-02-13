@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+
+input {
+  accent-color: #dc2626;
+}
+
+input[type="number"] {
+  border: 0;
+  border-bottom: 1px dotted #dc2626;
+  color: #dc2626;
+  margin-left: 10px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-bottom: 2px solid #dc2626;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
