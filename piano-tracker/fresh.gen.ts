@@ -11,6 +11,7 @@ import * as $4 from "./routes/register.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 import * as $$1 from "./islands/LoginPageForm.tsx";
 import * as $$2 from "./islands/RegisterPageForm.tsx";
+import * as $$3 from "./islands/TestMotionComponent.tsx";
 
 const manifest = {
   routes: {
@@ -24,6 +25,7 @@ const manifest = {
     "./islands/Counter.tsx": $$0,
     "./islands/LoginPageForm.tsx": $$1,
     "./islands/RegisterPageForm.tsx": $$2,
+    "./islands/TestMotionComponent.tsx": $$3,
   },
   baseUrl: import.meta.url,
   config,

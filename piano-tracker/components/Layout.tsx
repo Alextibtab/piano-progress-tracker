@@ -1,3 +1,4 @@
+import { asset, Head } from "$fresh/runtime.ts";
 import { ComponentChildren } from "preact";
 
 import Header from "./Header.tsx";
@@ -10,11 +11,17 @@ type Props = {
 
 const Layout = ({ active, children }: Props) => {
   return (
-    <>
+    <div class="flex flex-col h-full">
+      <Head>
+        <title>Fresh App</title>
+        <link rel="stylesheet" href={asset("styles.css")} />
+      </Head>
       <Header active={active} />
-      {children}
+      <div class="my-auto mx-auto">
+        {children}
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
