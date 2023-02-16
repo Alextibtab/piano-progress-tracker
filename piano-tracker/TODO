@@ -71,10 +71,11 @@ Finished Tasks:
   ✔ Register Form @done(22-02-09 21:56)
 
   ✔ Implement Framer Motion @done(23-02-13 01:54)
+  ✔ basic styling on login form @done(23-02-13 02:39)
 
 Todo: @today
-  ✔ basic styling on login form @done(23-02-13 02:39)
-  ☐ Style register form
+  ✔ Style register form @started(23-02-16 22:13) @done(23-02-16 22:23) @lasted(10m50s)
+  ☐ Basic client side user validation for login and register forms (only for demo purposes) @started(23-02-16 22:23)
   ☐ light/dark mode toggle
 
 Tasks:
