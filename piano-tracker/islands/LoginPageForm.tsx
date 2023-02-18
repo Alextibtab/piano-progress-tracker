@@ -1,39 +1,54 @@
 import { useState } from "preact/hooks";
 
 const LoginPageForm = () => {
-  const [email, setEmail] = useState("");
+  const [username_or_email, setUsernameOrEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const onSubmit = (e: Event) => {
-    console.log("submit");
-    console.log(e);
+  const onSubmit = async (e: Event) => {
     e.preventDefault();
+    const res = await fetch("http://localhost:8000/api/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        username_or_email,
+        password,
+      }),
+    });
+    if (res.status === 200) {
+      window.location.href = `/user/${await res.json().then((data) =>
+        data.username
+      )}/dashboard`;
+    } else {
+      console.log("Error");
+    }
   };
 
   return (
     <form onSubmit={onSubmit} class="flex flex-col py-8 items-center">
       <div class="flex mx-auto mb-8">
         <label
-          class="block pr-4 w-[100px] text-white font-bold tracking-wide"
-          for="email"
+          class="block pr-4 w-[150px] text-white font-bold tracking-wide"
+          for="username"
         >
-          Email
+          Username/Email
         </label>
         <input
-          type="email"
-          id="email"
-          name="email"
-          value={email}
+          type="text"
+          id="username"
+          name="username"
+          value={username_or_email}
           onInput={(e) => {
             if (e.target) {
-              setEmail((e.target as HTMLInputElement).value);
+              setUsernameOrEmail((e.target as HTMLInputElement).value);
             }
           }}
         />
       </div>
       <div class="flex mx-auto mb-8">
         <label
-          class="block pr-4 w-[100px] text-white font-bold tracking-wide"
+          class="block pr-4 w-[150px] text-white font-bold tracking-wide"
           for="password"
         >
           Password
