@@ -73,9 +73,15 @@ Finished Tasks:
   ✔ Implement Framer Motion @done(23-02-13 01:54)
   ✔ basic styling on login form @done(23-02-13 02:39)
 
-Todo: @today
   ✔ Style register form @started(23-02-16 22:13) @done(23-02-16 22:23) @lasted(10m50s)
-  ☐ Basic client side user validation for login and register forms (only for demo purposes) @started(23-02-16 22:23)
+
+Todo: @today
+  ✔ Add username field to register form and login form @started(23-02-18 00:02) @done(23-02-18 00:34) @lasted(32m37s)
+  ✔ Basic client side user validation for login and register forms (only for demo purposes) @started(23-02-16 22:23) @done(23-02-18 00:34) @lasted(1d2h11m38s)
+  ☐ fix style sheet path for nested routes
+  ☐ Add a way to switch between light and dark mode
+  ☐ update header UI when user is logged in
+  ☐ Add a way to logout
   ☐ light/dark mode toggle
 
 Tasks:
